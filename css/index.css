@@ -1,0 +1,58 @@
+body{
+    font-family: 'Playball', cursive;
+}
+.boldfont{
+    font-size: 2em;
+    font-weight: bold;
+}
+.navbar{
+    background-color: grey;
+}
+li{
+    border-bottom: 1px solid black;
+    margin: auto;
+}
+/* h1{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 30px 0;
+} */
+
+.card_color{
+    background-color: grey;
+    font-size: 1.2em;
+    box-sizing: border-box;
+}
+
+ @media (max-width: 575.98px) {
+    body {
+      background-color: lightpink;
+    }
+  }
+
+  /* Custom media query for medium devices */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    ul, li {
+        display: none;
+    }
+  }
+
+  /* Custom media query for large devices */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    ul, li {
+        display: none;
+    }
+  }
+
+  /* Custom media query for extra-large devices */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    ul, li {
+        display: none;
+    }
+}
+
+  @media (min-width: 1200px) {
+    ul, li {
+        display: none;
+    }
+  } 
